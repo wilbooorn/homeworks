@@ -24,13 +24,13 @@ class Board
     index = start_pos
     until temp.empty?
       index += 1
-      index = 0 if index > 13
+      index = 0 if index >= 14
       if index == 6
-        @cups[6] << temp.pop if current_player_name == @name1
+        @cups[6] << temp.shift if current_player_name == @name1
       elsif index == 13
-        @cups[13] << temp.pop if current_player_name == @name2
+        @cups[13] << temp.shift if current_player_name == @name2
       else
-        @cups[index] << temp.pop
+        @cups[index] << temp.shift
       end
     end
     render
