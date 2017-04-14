@@ -31,6 +31,7 @@ class Route < ActiveRecord::Base
         drivers << driver.name
       end
       all_drivers[bus.id] = drivers
+      
     end
 
     all_drivers
