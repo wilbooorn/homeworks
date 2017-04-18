@@ -1,8 +1,23 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <title>Pad Thai Recipe</title>
+    <meta name="description" content="A simple recipe for Pad Thai, a delicioius noodle dish with great flavor.">
     <meta charset="utf-8">
-    <title></title>
+    <link rel="stylesheet" href="css_reset.css" type="text/css">
+
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-12345678-9', 'auto');
+      ga('send', 'pageview');
+    </script>
+
+    <script type="text/javascript" src="external_javascript_example.js"/>
+
   </head>
 
 
@@ -69,7 +84,7 @@
 
     </section>
 
-    <section>
+    <section id="reviews">
       <form class="" action="/reviews" method="post">
         <label for="Name">Name</label>
         <br>
@@ -100,7 +115,7 @@
         <br>
         <br>
 
-        <label for="Review">Review<br><textarea></textarea></label>
+        <label id="review-form" for="Review">Review<br><textarea></textarea></label>
 
       </form>
     </section>
