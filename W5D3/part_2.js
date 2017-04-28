@@ -53,4 +53,19 @@ let herd = [ellie, charlie, kate, micah];
 Elephant.prototype.paradeHelper = function(elephant) {
   console.log(`${elephant.name} is trotting by!`);
 }
-herd.forEach(Elephant.prototype.paradeHelper);
+// herd.forEach(Elephant.prototype.paradeHelper);
+
+
+function dinerBreakfast() {
+  let order = "I'd like cheesy scrambled eggs please.";
+  console.log(order);
+
+  return function (food) {
+    order = `${order.slice(0, order.length - 8)} and ${food} please.`;
+    console.log(order);
+  };
+};
+let order = dinerBreakfast();
+order("pancakes");
+order("grits");
+order("sauasage");
