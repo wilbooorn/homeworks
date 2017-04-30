@@ -1,0 +1,11 @@
+header, h1, img, nav, ul, li, aside, a, h2, body, section, figure,
+figcaption, ol, form, label, input, select, option, footer{
+  /*margin: inherit;
+  border: inherit;
+  padding: inherit;*/
+
+  /*font: inherit;
+  text-align: inherit;
+  text-decoration: inherit;*/
+
+}
