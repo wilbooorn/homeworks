@@ -23,18 +23,21 @@
 
 
   <header>
-    <h1>Pad Thai</h1>
-    <img src="https://p5.zdassets.com/hc/settings_assets/949671/200252358/ytySguzPxy92CMwTwD4fxg-logo-emblem-red.png" alt="app academy logo"/>
+
+    <img class = "pic" src="https://p5.zdassets.com/hc/settings_assets/949671/200252358/ytySguzPxy92CMwTwD4fxg-logo-emblem-red.png" alt="app academy logo"/>
     <nav>
       <ul>
-        <li><a href="#Description">Description</a></li>
-        <li><a href="#Ingredients">Ingredients</a></li>
-        <li><a href="#Directions">Directions</a></li>
+        <li class="inline"><a href="#Description">Description</a></li>
+        <li class="inline"><a href="#Ingredients">Ingredients</a></li>
+        <li class="inline"><a href="#Directions">Directions</a></li>
       </ul>
     </nav>
   </header>
 
-  <aside>
+  <div class="cf"></div>
+
+  <aside class = "left" >
+
     <a name="Ingredients" />
     <h2>Ingredients</h2>
     <ul class="ingredients-list">
@@ -55,20 +58,24 @@
 
   </aside>
 
+  </div>
   <body>
+
+    <figure>
+      <h1>Pad Thai</h1>
+      <img src="http://i1179.photobucket.com/albums/x388/chaturong99/wikifood06.jpg" alt="Delicious Pad Thai" />
+    </figure>
+
+    <figcaption>
+      <a href="https://en.wikipedia.org/wiki/Pad_thai">Find out more here</a>
+    </figcaption>
 
     <section>
       <a name="Description" />
       <h2>Description</h2>
       <p>Pad Thai is essentially a stir-fry and requires little more than chopping and stirring. It comes together in less than a half-hour. Some ingredients in this recipe may be unfamiliar. The first are the noodles themselves: rice stick noodles, which are pale, translucent, flat and range from very thin to more than a quarter-inch wide. Unlike semolina pasta, rice stick noodles don’t need to be boiled; instead, you soak them in hot water until they’re tender. Meanwhile, make a sauce from tamarind paste, now easily found in larger supermarkets or online. The paste, made from the pulp of the tamarind pod, is very sour, but more complex than citrus. It can vary widely in its potency, so be sure to taste as you go. Fish sauce (nam pla) is another important ingredient. Made from fermented anchovies (and much like the garum of ancient Rome), it has an unappealing smell and a fabulous taste. Honey and rice vinegar round things out. </p>
 
-      <figure>
-        <img src="http://i1179.photobucket.com/albums/x388/chaturong99/wikifood06.jpg" alt="Delicious Pad Thai" />
-      </figure>
 
-      <figcaption>
-        <a href="https://en.wikipedia.org/wiki/Pad_thai">Find out more here</a>
-      </figcaption>
 
       <a name="Directions" />
       <h2>Directions</h2>
@@ -83,27 +90,23 @@
         <li>Garnish with crushed peanuts, chopped green onions and wedge of lemon.</li>
       </ol>
 
-    </section>
 
-    <section id="reviews">
       <form class="" action="/reviews" method="post">
+        <h2>Reviews</h2>
+
         <label for="Name">Name</label>
         <br>
         <input id="Name" type="text">
 
         <br>
+        <input id="Rating" type="radio" name="rating" value = "1" checked>
+        <input id="Rating" type="radio" name="rating" value = "2">
+        <input id="Rating" type="radio" name="rating" value = "3">
+        <input id="Rating" type="radio" name="rating" value = "4">
+        <input id="Rating" type="radio" name="rating" value = "5">
 
-        <label for="Rating">Rating</label>
-        <br>
-        <input id="Rating" type="radio" name="rating" value = "1" checked>1<br>
-        <input id="Rating" type="radio" name="rating" value = "2">2<br>
-        <input id="Rating" type="radio" name="rating" value = "3">3<br>
-        <input id="Rating" type="radio" name="rating" value = "4">4<br>
-        <input id="Rating" type="radio" name="rating" value = "5">5<br>
 
-        <br>
-
-        <label for="Cooking Expertise">Cooking Expertise</label>
+        <label for="Cooking Expertise"></label>
         <br>
         <select id="Cooking Expertise">
           <option selected disabled>-- Select Cooking Expertise --</option>
@@ -114,12 +117,11 @@
         </select>
 
         <br>
-        <br>
 
-        <label id="review-form" for="Review">Review<br><textarea></textarea></label>
+        <label id="review-form" for="Review">Review<br><textarea cols = "60" rows = "6"></textarea></label>
 
         <br><br>
-        <input type="submit" value="submit">
+        <input type="submit" value="Submit Review">
 
       </form>
     </section>
