@@ -86,8 +86,8 @@ View.prototype.exercise6 = function () {
   // $ul.children().attr("background-color", window._randomColorString());
 
   $('.square').each( (idx, el) => {
-    var $sq = $(el);
-    $sq.css("background-color", window._randomColorString());
+    var $square = $(el);
+    $square.css("background-color", window._randomColorString());
   });
 };
 
@@ -100,8 +100,8 @@ View.prototype.exercise7 = function(){
 
   //your code here!
   $('#easel').on("mouseenter", ".square", e => {
-    const $sq = $(e.currentTarget);
-    console.log($sq.css("background-color"));
+    const $square = $(e.currentTarget);
+    console.log($square.css("background-color"));
   });
 };
 
