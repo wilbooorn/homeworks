@@ -1,12 +1,14 @@
 body {
-  font-family: "Arial, sans-serif";
+  font-family: times;
 }
 
 h1 {
   font-size: 38px;
+  font-family: fantasy;
 }
 
 h2{
+  font-family: fantasy;
   font-size: 32px;
 }
 .ingredients-list {
