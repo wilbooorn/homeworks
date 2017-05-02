@@ -1,5 +1,7 @@
 body {
-  font-family: times;
+  font-family: fantasy;;
+  width: 80%;
+  margin: 0 auto
 }
 
 h1 {
@@ -13,6 +15,9 @@ h2{
 }
 .ingredients-list {
   list-style: square;
+}
+nav ul{
+  font-family: cursive;
 }
 
 ol {
@@ -66,13 +71,9 @@ input:last-child:hover {
 }
 
 li{
+  font-family: fantasy;;
   margin-top: 15px;
   margin-bottom: 15px;
-}
-
-body{
-  width: 80%;
-  margin: 0 auto
 }
 
 
