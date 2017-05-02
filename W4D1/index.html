@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Pad Thai Recipe</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    <meta name="description" content="A simple recipe for Pad Thai, a delicioius noodle dish with great flavor.">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css_custom_reset.css" type="text/css"/>
+    <link rel="stylesheet" href="style.css" type="text/css"/>
+
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-12345678-9', 'auto');
+      ga('send', 'pageview');
+    </script>
+
+    <script type="text/javascript" src="external_javascript_example.js"></script>
+
+  </head>
+
+
+  <header>
+
+    <img class = "pic" src="https://p5.zdassets.com/hc/settings_assets/949671/200252358/ytySguzPxy92CMwTwD4fxg-logo-emblem-red.png" alt="app academy logo"/>
+    <nav>
+      <ul>
+        <li class="inline"><a href="#Description">Description</a></li>
+        <li class="inline"><a href="#Ingredients">Ingredients</a></li>
+        <li class="inline"><a href="#Directions">Directions</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="cf"></div>
+
+  <aside class = "left" >
+
+    <a name="Ingredients" />
+    <h2>Ingredients</h2>
+    <ul class="ingredients-list">
+      <li>1 (12 ounce) package rice noodles</li>
+      <li>2 Tbs butter</li>
+      <li>1 pound boneless, skinless chicken breast</li>
+      <li>1/4 cup vegetable oil</li>
+      <li>4 eggs</li>
+      <li>1 tablespoon white wine vinegar</li>
+      <li>2 tablespoons fish sauce</li>
+      <li>3 tablespoons white sugar</li>
+      <li>1/8 tablespoon crushed red pepper</li>
+      <li>2 cups bean sprouts</li>
+      <li>1/4 cup crushed peanuts</li>
+      <li>3 green onions, chopped</li>
+      <li>1 lemon, cut into wedges</li>
+    </ul>
+
+  </aside>
+
+  </div>
+  <body>
+
+    <section>
+
+    <figure>
+      <h1>Pad Thai</h1>
+      <img src="http://i1179.photobucket.com/albums/x388/chaturong99/wikifood06.jpg" alt="Delicious Pad Thai" />
+    </figure>
+
+    <figcaption>
+      <a href="https://en.wikipedia.org/wiki/Pad_thai">Find out more here</a>
+    </figcaption>
+
+
+      <a name="Description" />
+      <h2>Description</h2>
+      <p>Pad Thai is essentially a stir-fry and requires little more than chopping and stirring. It comes together in less than a half-hour. Some ingredients in this recipe may be unfamiliar. The first are the noodles themselves: rice stick noodles, which are pale, translucent, flat and range from very thin to more than a quarter-inch wide. Unlike semolina pasta, rice stick noodles don’t need to be boiled; instead, you soak them in hot water until they’re tender. Meanwhile, make a sauce from tamarind paste, now easily found in larger supermarkets or online. The paste, made from the pulp of the tamarind pod, is very sour, but more complex than citrus. It can vary widely in its potency, so be sure to taste as you go. Fish sauce (nam pla) is another important ingredient. Made from fermented anchovies (and much like the garum of ancient Rome), it has an unappealing smell and a fabulous taste. Honey and rice vinegar round things out. </p>
+
+
+
+      <a name="Directions" />
+      <h2>Directions</h2>
+      <ol>
+        <li>Soak rice noodles in cold water 30 to 50 minutes, or until soft. Drain, and set aside.</li>
+        <li>Heat butter in a wok or large heavy skillet. Saute chicken until browned. Remove, and set aside.</li>
+        <li> Heat oil in wok over medium-high heat. Crack eggs into hot oil, and cook until firm.</li>
+        <li>Stir in chicken, and cook for 5 minutes.</li>
+        <li>Add softened noodles, and vinegar, fish sauce, sugar and red pepper. Adjust seasonings to taste.</li>
+        <li> Mix while cooking, until noodles are tender.</li>
+        <li>Add bean sprouts, and mix for 3 minutes.</li>
+        <li>Garnish with crushed peanuts, chopped green onions and wedge of lemon.</li>
+      </ol>
+
+
+      <form class="" action="/reviews" method="post">
+        <h2>Reviews</h2>
+
+        <label for="Name">Name</label>
+        <br>
+        <input id="Name" type="text">
+
+        <br>
+        <input id="Rating" type="radio" name="rating" value = "1" checked>
+        <input id="Rating" type="radio" name="rating" value = "2">
+        <input id="Rating" type="radio" name="rating" value = "3">
+        <input id="Rating" type="radio" name="rating" value = "4">
+        <input id="Rating" type="radio" name="rating" value = "5">
+
+
+        <label for="Cooking Expertise"></label>
+        <br>
+        <select id="Cooking Expertise">
+          <option selected disabled>-- Select Cooking Expertise --</option>
+          <option value="Sometimes Cook">Sometimes Cook</option>
+          <option value="Cook Everyday">Cook Everyday</option>
+          <option value="Cooking is a Hobby">Cooking is a Hobby</option>
+          <option value="Professional Chef">Professional Chef</option>
+        </select>
+
+        <br>
+
+        <label id="review-form" for="Review">Review<br><textarea cols = "60" rows = "6"></textarea></label>
+
+        <br><br>
+        <input type="submit" value="Submit Review">
+
+      </form>
+    </section>
+
+    <footer>
+      <p>Original Recipe from <a href="http://allrecipes.com/recipe/42968/pad-thai/">Allrecipes</a></p>
+    </footer>
+
+  </body>
+</html>
